@@ -1,0 +1,40 @@
+.about_us {
+  display: flex;
+
+  .about_us_left {
+    background-color: $color-background-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+
+    h2 {
+      font-size: 2.25rem;
+      padding-bottom: 2rem;
+    }
+
+    p {
+      font-size: 1.875rem;
+      line-height: 3rem;
+      text-align: center;
+      padding-top: 3rem;
+      width: 70%;
+    }
+
+    .about_us_signature {
+      align-self: flex-end;
+      padding-top: 3rem;
+      padding-right: 9em;
+    }
+  }
+
+  .about_us_right {
+    background-image: url("../../assets/People.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+  }
+}

@@ -1,0 +1,39 @@
+.main_nav {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+
+  .main_nav_log {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+
+    .main_nav_link {
+      color: $color-placeholder;
+
+      padding: 0.5rem 0.6rem;
+
+      &:hover {
+        border: 1px solid $color-yellow;
+      }
+    }
+  }
+  .main_nav_page {
+    display: flex;
+    justify-content: flex-end;
+
+    .main_nav-section {
+      color: $color-primary;
+      padding: 0.5rem 1rem;
+
+      &:hover {
+        border: 1px solid $color-primary;
+      }
+
+    }
+
+
+  }
+
+}

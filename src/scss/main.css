@@ -364,4 +364,559 @@ textarea {
   padding: 0.2em 0;
 }
 
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  color: #3C3C3C;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.main_nav {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.main_nav .main_nav_log {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
+}
+.main_nav .main_nav_log .main_nav_link {
+  color: #737373;
+  padding: 0.5rem 0.6rem;
+}
+.main_nav .main_nav_log .main_nav_link:hover {
+  border: 1px solid #FAD648;
+}
+.main_nav .main_nav_page {
+  display: flex;
+  justify-content: flex-end;
+}
+.main_nav .main_nav_page .main_nav-section {
+  color: #3C3C3C;
+  padding: 0.5rem 1rem;
+}
+.main_nav .main_nav_page .main_nav-section:hover {
+  border: 1px solid #3C3C3C;
+}
+
+.main_content {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+.main_content .main_content_hero {
+  background-image: url("../../assets/Home-Hero-Image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 48vw;
+}
+.main_content .main_content-container {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 52vw;
+}
+.main_content .main_content-container .main_content_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5rem;
+}
+.main_content .main_content-container .main_content_right .main_content_title {
+  font-size: 1.875rem;
+  text-align: center;
+  line-height: 1.3;
+}
+.main_content .main_content-container .main_content_right .main_content_decoration {
+  padding-top: 1.5rem;
+  padding-bottom: 1.75rem;
+  width: 35%;
+}
+.main_content .main_content-container .big_btn {
+  border: 1px solid #3C3C3C;
+  color: #3C3C3C;
+  display: inline-block;
+  font-size: 1.75rem;
+  font-weight: 350;
+  line-height: 1.2;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 13rem;
+}
+
+.three_col {
+  background-image: url("../../assets/3 Columns Background.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  padding: 0 2rem;
+}
+.three_col .col {
+  text-align: center;
+  width: 30%;
+}
+.three_col .col h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  padding-bottom: 2rem;
+}
+.three_col .col span {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.three_col .col p {
+  padding-top: 1.5rem;
+  margin: 0 4rem;
+}
+
+.four_steps_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 175px;
+  padding: 1.5rem;
+}
+.four_steps_title h2 {
+  font-size: 2.25rem;
+  margin-top: 1.5rem;
+}
+.four_steps_title .four_steps_decoration {
+  margin-top: 1.5rem;
+}
+
+.four_steps_columns {
+  background-color: #F0F1F1;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+}
+.four_steps_columns .four_steps_step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+  width: 300px;
+}
+.four_steps_columns .four_steps_step p {
+  text-align: center;
+  padding: 0.75rem 0;
+  width: 60%;
+}
+.four_steps_columns .four_steps_step hr {
+  width: 25%;
+  border-top: 1px solid #3C3C3C;
+}
+.four_steps_columns .four_steps_step span {
+  text-align: center;
+  padding: 0.75rem 0;
+  width: 60%;
+}
+
+.four_steps_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 175px;
+  padding: 1.5rem;
+}
+.four_steps_btn .btn {
+  border: 1px solid #3C3C3C;
+  color: #3C3C3C;
+  font-size: 1.75rem;
+  font-weight: 350;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 1.5rem;
+  padding: 1.5rem 3rem;
+}
+
+.about_us {
+  display: flex;
+}
+.about_us .about_us_left {
+  background-color: #F0F1F1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+}
+.about_us .about_us_left h2 {
+  font-size: 2.25rem;
+  padding-bottom: 2rem;
+}
+.about_us .about_us_left p {
+  font-size: 1.875rem;
+  line-height: 3rem;
+  text-align: center;
+  padding-top: 3rem;
+  width: 70%;
+}
+.about_us .about_us_left .about_us_signature {
+  align-self: flex-end;
+  padding-top: 3rem;
+  padding-right: 9em;
+}
+.about_us .about_us_right {
+  background-image: url("../../assets/People.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 50%;
+}
+
+.who_we_help {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  width: 100%;
+}
+.who_we_help h2 {
+  font-size: 2.25rem;
+}
+.who_we_help .who_we_help_decoration {
+  margin-bottom: 2rem;
+}
+.who_we_help .who_we_help_options {
+  display: flex;
+  justify-content: space-between;
+  width: 750px;
+}
+.who_we_help .who_we_help_btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  width: 200px;
+  height: 80px;
+}
+.who_we_help .who_we_help_btn:hover, .who_we_help .who_we_help_btn:focus {
+  border: 1px solid #3C3C3C;
+}
+.who_we_help .who_we_help_info {
+  font-size: 1.375rem;
+  text-align: center;
+  line-height: 1.4;
+  width: 650px;
+}
+.who_we_help .who_we_help_list {
+  height: 350px;
+  width: 1340px;
+}
+.who_we_help .who_we_help_list .who_we_help_list_elements {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option {
+  border-bottom: 1px solid #3C3C3C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option .option_details {
+  font-family: "Open Sans", sans-serif;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option .option_details h3 {
+  font-size: 1.625rem;
+  font-weight: 300;
+  padding-bottom: 0.5rem;
+}
+.who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option .option_details p {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+.who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option .option_items {
+  font-weight: 300;
+}
+.who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option:last-child {
+  border: none;
+}
+
+.pagination {
+  display: flex;
+}
+.pagination .pagination_item {
+  padding: 1rem 1.5rem;
+}
+.pagination .pagination_btn {
+  background: none;
+  border: none;
+  padding: 0.75rem;
+}
+.pagination .pagination_btn:hover, .pagination .pagination_btn:focus {
+  border: 1px solid #3C3C3C;
+}
+
+.contact {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.contact .contact_photo {
+  background-image: url("../../assets/Background-Contact-Form.jpg");
+  background-size: cover;
+  height: 100%;
+  opacity: 0.4;
+  width: 100%;
+  position: absolute;
+}
+.contact .contact_form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 50%;
+  position: absolute;
+  width: 50%;
+}
+.contact .contact_form .contact_form_title {
+  font-size: 2.25rem;
+}
+.contact .contact_form .contact_form_decoration {
+  margin: 2rem 0;
+}
+.contact .contact_form .contact_form_success {
+  color: forestgreen;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 1rem;
+  margin-bottom: 1.5rem;
+}
+.contact .contact_form .contact_form_details {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact_form .contact_form_details .contact_form_info {
+  display: flex;
+  padding-bottom: 2rem;
+}
+.contact .contact_form .contact_form_details .contact_form_info input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #3C3C3C;
+  height: 2rem;
+}
+.contact .contact_form .contact_form_details .contact_form_input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.contact .contact_form .contact_form_details .contact_form_input label {
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+.contact .contact_form .contact_form_details .contact_form_input textarea {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #3C3C3C;
+  font-family: "Open Sans", sans-serif;
+  height: 120px;
+}
+.contact .contact_form .contact_form_details .contact_form_input .contact_form_error {
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 8px;
+}
+.contact .contact_form .contact_form_btn {
+  background: none;
+  border: 1px solid #3C3C3C;
+  font-size: 1.125rem;
+  height: 50px;
+  margin-top: 1rem;
+  margin-left: 280px;
+  width: 150px;
+}
+.contact .footer {
+  align-self: flex-end;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  left: 47%;
+}
+
+.footer_container {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+.footer_container .footer_social_media {
+  display: flex;
+  margin-left: 30rem;
+}
+.footer_container .footer_social_media .facebook {
+  padding-right: 1rem;
+}
+
+.login {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+.login .login_title {
+  font-size: 2.25rem;
+  padding-bottom: 1.75rem;
+}
+.login .login_decoration {
+  width: 230px;
+  padding-bottom: 2.5rem;
+}
+.login .login_form .login_form_details {
+  background-color: #F0F1F1;
+  display: flex;
+  flex-direction: column;
+  height: 235px;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  width: 385px;
+}
+.login .login_form .login_form_details input {
+  background-color: #F0F1F1;
+  border: none;
+  border-bottom: 1px solid #3C3C3C;
+  margin: 0 5rem;
+  padding-top: 0.5rem;
+}
+.login .login_form .login_form_details label {
+  margin: 0 5rem;
+  padding-top: 2rem;
+  font-weight: 600;
+}
+.login .login_form .login_form_details .error {
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 20px;
+  margin-left: 80px;
+}
+.login .login_form_buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.25rem;
+}
+.login .login_form_buttons .btn {
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 350;
+  padding: 1rem;
+}
+.login .login_form_buttons .btn:hover {
+  border: 1px solid #3C3C3C;
+}
+
+.account {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5rem;
+}
+.account .account_title {
+  font-size: 2.25rem;
+  padding-bottom: 1.75rem;
+}
+.account .account_decoration {
+  width: 230px;
+  padding-bottom: 2.5rem;
+}
+.account .account_form .account_form_details {
+  background-color: #F0F1F1;
+  display: flex;
+  flex-direction: column;
+  height: 328px;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  width: 385px;
+}
+.account .account_form .account_form_details input {
+  background-color: #F0F1F1;
+  border: none;
+  border-bottom: 1px solid #3C3C3C;
+  margin: 0 5rem;
+  padding-top: 0.5rem;
+}
+.account .account_form .account_form_details label {
+  margin: 0 5rem;
+  padding-top: 2rem;
+  font-weight: 600;
+}
+.account .account_form .account_form_details .error {
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 15px;
+  margin-left: 80px;
+}
+.account .account_form_buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.25rem;
+}
+.account .account_form_buttons .btn {
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 350;
+  padding: 1rem;
+}
+.account .account_form_buttons .btn:hover {
+  border: 1px solid #3C3C3C;
+}
+
+.logout {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.logout .logout_title {
+  font-size: 2.25rem;
+  padding-bottom: 1.75rem;
+  align-self: center;
+  text-align: center;
+  line-height: 3rem;
+}
+.logout .logout_decoration {
+  width: 230px;
+}
+.logout .logout_btn {
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 350;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.logout .logout_btn:hover {
+  border: 1px solid #3C3C3C;
+}
+
 /*# sourceMappingURL=main.css.map */

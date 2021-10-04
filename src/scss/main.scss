@@ -1,3 +1,17 @@
 @import "settings/reset";
 @import "settings/colors";
 @import "settings/fonts";
+@import "settings/base";
+
+@import "elements/HomeHeader";
+@import "elements/HomeMain";
+@import "elements/ThreeColumns";
+@import "elements/FourSteps";
+@import "elements/AboutUs";
+@import "elements/WhoWeHelp";
+@import "elements/Pagination";
+@import "elements/Contact";
+@import "elements/Footer";
+@import "elements/LoginForm";
+@import "elements/RegisterForm";
+@import "elements/Logout";

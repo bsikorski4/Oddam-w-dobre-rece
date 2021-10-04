@@ -1,0 +1,15 @@
+.footer_container {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 0.5rem;
+
+  .footer_social_media {
+    display: flex;
+    margin-left: 30rem;
+
+    .facebook {
+      padding-right: 1rem;
+    }
+  }
+}
