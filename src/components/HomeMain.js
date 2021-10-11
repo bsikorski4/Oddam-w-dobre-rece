@@ -20,7 +20,7 @@ function HomeMain() {
 
                     <div>
                         <Link to='/logowanie' className='big_btn'>
-                            Oddaj rzeczy
+                            Oddaj<br></br>rzeczy
                         </Link>
 
                         <Link to='/logowanie' className='big_btn'>

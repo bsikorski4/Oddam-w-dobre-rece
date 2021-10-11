@@ -450,7 +450,7 @@ body {
   padding: 1.5rem;
   text-align: center;
   text-transform: uppercase;
-  width: 13rem;
+  width: 15rem;
 }
 
 .three_col {
@@ -475,8 +475,10 @@ body {
   text-transform: uppercase;
 }
 .three_col .col p {
+  font-family: "Merriweather", serif;
   padding-top: 1.5rem;
   margin: 0 4rem;
+  line-height: 1.3;
 }
 
 .four_steps_title {
@@ -590,6 +592,7 @@ body {
 }
 .who_we_help h2 {
   font-size: 2.25rem;
+  padding-top: 3rem;
 }
 .who_we_help .who_we_help_decoration {
   margin-bottom: 2rem;
@@ -639,15 +642,18 @@ body {
   justify-content: flex-start;
 }
 .who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option .option_details h3 {
+  font-family: "Merriweather", serif;
   font-size: 1.625rem;
   font-weight: 300;
   padding-bottom: 0.5rem;
 }
 .who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option .option_details p {
+  font-family: "Merriweather", serif;
   font-size: 1.125rem;
   font-weight: 300;
 }
 .who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option .option_items {
+  font-family: "Merriweather", serif;
   font-weight: 300;
 }
 .who_we_help .who_we_help_list .who_we_help_list_elements .who_we_help_option:last-child {
@@ -736,6 +742,7 @@ body {
   border-bottom: 1px solid #3C3C3C;
   font-family: "Open Sans", sans-serif;
   height: 120px;
+  resize: none;
 }
 .contact .contact_form .contact_form_details .contact_form_input .contact_form_error {
   color: red;

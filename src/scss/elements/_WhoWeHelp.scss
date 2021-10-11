@@ -8,6 +8,7 @@
 
   h2 {
     font-size: 2.25rem;
+    padding-top: 3rem;
   }
 
   .who_we_help_decoration {
@@ -65,12 +66,14 @@
 
 
           h3 {
+            font-family: $font-alt;
             font-size: 1.625rem;
             font-weight: 300;
             padding-bottom: 0.5rem;
           }
 
           p {
+            font-family: $font-alt;
             font-size: 1.125rem;
             font-weight: 300;
           }
@@ -78,6 +81,7 @@
         }
 
         .option_items {
+          font-family: $font-alt;
           font-weight: 300;
         }
 
